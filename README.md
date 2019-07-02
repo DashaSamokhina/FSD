@@ -1,2 +1,2 @@
 # FSD
-https://dashasamokhina.github.io/FSD/
+https://dashasamokhina.github.io/FSD/dist
