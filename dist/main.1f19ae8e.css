@@ -2,7 +2,7 @@
 @font-face {
   font-family: "Quicksand";
   src: url("/Quicksand-Regular.cf7ee4ae.eot");
-  src: local("☺"), url("/Quicksand-Regular.4475e8c2.woff") format("woff"), url("/Quicksand-Regular.46d6abf6.ttf") format("truetype"), url("/Quicksand-Regular.438fcded.svg") format("svg");
+  src: local("☺"), url("/Quicksand-Regular.4475e8c2.woff") format("woff"), url("/Quicksand-Regular.46d6abf6.ttf") format("truetype"), fonts/OpenSans/url("/Quicksand-Regular.438fcded.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -13,8 +13,21 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Open Sans";
+  src: url("/OpenSans.ae18bba4.eot");
+  src: url("/OpenSans.ae18bba4.eot?#iefix") format("embedded-opentype"), url("/OpenSans.68a28587.woff2") format("woff2"), url("/OpenSans.7d472dcb.woff") format("woff"), url("/OpenSans.04bd8a76.ttf") format("truetype"), url("/OpenSans.c26f4380.svg#OpenSans") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
-  font-family: Quicksand, sans-serif;
+  font-family: Quicksand, "Open sans", sans-serif;
   color: tomato;
 }
 
