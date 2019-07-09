@@ -1,4 +1,4 @@
-// fonts
+// font family
 @font-face {
 	font-family: 'Quicksand';
 	src: url('fonts/Quicksand/Quicksand-Regular.eot');
@@ -29,18 +29,55 @@
     font-style: normal;
 }
 
+// fonts
+@mixin main-font {
+  font-family: Montserrat, sans-serif;
+}
+@mixin heading-font {
+  font-family: Quicksand, "Open sans", sans-serif;
+}
+
+// colors
+$dark100: rgba(31, 32, 65, 1);
+$dark75: rgba(31, 32, 65, 0.75);
+$dark50: rgba(31, 32, 65, 0.50);
+$dark25: rgba(31, 32, 65, 0.25);
+$dark5: rgba(31, 32, 65, 0.05);
+$purple: #bc9cff;
+$green: #6fcf97;
 
 // Basic settings
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 14px;
+  line-height: 24px;
+}
+body{
+  @include main-font;
+  color: $dark75;
 }
 
-
-$color_h1: tomato;
-
+// headings
+h1, h2, h3{
+  color: $dark100;
+  font-weight: bold;
+  @include heading-font;
+}
 h1 {
-    font-family: Quicksand, "Open sans", sans-serif;
-    color: $color_h1;
+  font-size: 24px;
+  line-height: 30px;
+}
+h2{
+  font-size: 19px;
+  line-height: 24px;
+}
+h3{
+  @include main-font;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
 }
