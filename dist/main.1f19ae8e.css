@@ -1,4 +1,20 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Quicksand";
+  src: url("/Quicksand-Regular.cf7ee4ae.eot");
+  src: local("☺"), url("/Quicksand-Regular.4475e8c2.woff") format("woff"), url("/Quicksand-Regular.46d6abf6.ttf") format("truetype"), url("/Quicksand-Regular.438fcded.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/Montserrat-Regular.816c7b27.eot");
+  src: local("☺"), url("/Montserrat-Regular.f0ef367f.woff") format("woff"), url("/Montserrat-Regular.104dc861.ttf") format("truetype"), url("/Montserrat-Regular.4e28c498.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 h1 {
+  font-family: Quicksand, sans-serif;
   color: tomato;
 }
 
