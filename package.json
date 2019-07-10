@@ -1,8 +1,8 @@
 {
   "name": "fsd",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "description": "https://dashasamokhina.github.io/FSD/dist/index.html",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/pug/index.pug --open",
@@ -21,6 +21,6 @@
   "homepage": "https://github.com/DashaSamokhina/FSD#readme",
   "devDependencies": {
     "pug": "^2.0.4",
-    "sass": "^1.22.2"
+    "sass": "^1.22.3"
   }
 }
