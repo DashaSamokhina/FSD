@@ -30,12 +30,8 @@
 }
 
 // fonts
-@mixin main-font {
-  font-family: Montserrat, sans-serif;
-}
-@mixin heading-font {
-  font-family: Quicksand, "Open sans", sans-serif;
-}
+$main-font: Montserrat, sans-serif;
+$heading-font: Quicksand, "Open sans", sans-serif;
 
 // colors
 $dark100: rgba(31, 32, 65, 1);
@@ -47,25 +43,20 @@ $purple: #bc9cff;
 $green: #6fcf97;
 
 // Basic settings
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 html{
   font-size: 14px;
   line-height: 24px;
 }
 body{
-  @include main-font;
+  font-family: $main-font;
   color: $dark75;
 }
 
 // headings
 h1, h2, h3{
+  font-family: $heading-font;
   color: $dark100;
   font-weight: bold;
-  @include heading-font;
 }
 h1 {
   font-size: 24px;
@@ -76,7 +67,7 @@ h2{
   line-height: 24px;
 }
 h3{
-  @include main-font;
+  font-family: $main-font;
   font-size: 12px;
   line-height: 15px;
   text-transform: uppercase;
