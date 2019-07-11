@@ -1,0 +1,1 @@
+{"version":3,"sources":["../js/main.js"],"names":["console","log"],"mappings":";;;AACA,aADA,QAAA,qBACAA,QAAQC,IAAI","file":"main.b1ff6c9f.js","sourceRoot":"..\\src\\pug","sourcesContent":["import '../scss/main.scss';\r\nconsole.log('Hello main.js!')"]}
